@@ -6357,7 +6357,7 @@ button.close {
         opacity: 1; }
       .section-slider .owl-nav .owl-prev:before {
         content: "";
-        background: url("../images/icon/even-l-icon.png") no-repeat;
+        
         padding: 20px;
         margin-top: 45px;
         width: 120px;
@@ -6385,7 +6385,7 @@ button.close {
         width: 120px;
         height: 120px;
         position: absolute;
-        background: url("../images/icon/even-r-icon.png") no-repeat;
+       
         padding: 20px;
         opacity: 0.6; }
       .section-slider .owl-nav .owl-next:hover::before {
@@ -7467,7 +7467,7 @@ button.close {
       display: flex; }
       .wrap-box-1 .btn-product .wrap-btn span {
         border-right: 1px solid #d5d5d5;
-        padding: 9px 39px;
+        padding: 0px 15px;
         position: relative; }
         .wrap-box-1 .btn-product .wrap-btn span:last-child {
           border: none; }

@@ -4188,3 +4188,18 @@ function initializeClock(id, endtime) {
 
 
 
+
+  const menuToggle = document.getElementById("menu-toggle");
+  const mobileMenu = document.getElementById("mobile-menu");
+  const menuCloseBtn = document.querySelector(".menu-close-btn");
+
+  // Show menu
+  menuToggle.addEventListener("click", () => {
+    mobileMenu.classList.add("active");
+  });
+
+  // Hide menu
+  menuCloseBtn.addEventListener("click", () => {
+    mobileMenu.classList.remove("active");
+  });
+
